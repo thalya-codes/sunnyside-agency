@@ -1,1 +1,64 @@
-//reset
+.cabecalho {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('../images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 18%;
+    background-attachment: scroll;
+
+    color: var(--white);
+ 
+}
+.container-menu {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4.5rem;
+
+}
+.titulo-menu {
+    font-family: 'Barlow', sans-serif;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.menu-lista {
+    display: flex;
+    width: 80vw;
+    justify-content: flex-end;
+    list-style: none;
+}
+.menu-lista li:not(.btn-contato) {
+    margin-right: 5rem;
+}
+.menu-lista-link {
+    font-size: 1.5rem;
+}
+.menu-lista-link:not(.btn-contato) {
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+}
+.menu-lista .btn-contato {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Fraunces', serif;
+    background-color: var(--white);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:  20px;
+    padding-right:  20px;
+}
+
+.titulo-cabecalho {
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 8px;
+    padding-top: 10rem;
+}
