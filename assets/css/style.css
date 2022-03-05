@@ -287,3 +287,15 @@ main {
 .icones-redes-sociais:hover {
     color: #fff;
 }
+
+
+/* SCROLLBAR personalizado */
+
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FED602;
+    border-radius: 20px;
+}
