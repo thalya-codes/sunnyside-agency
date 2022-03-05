@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600&family=Fraunces:wght@100;300;400;500;600&display=swap" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800;900&family=Fraunces:wght@100;300;400;500;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
   <link rel="stylesheet" href="assets/css/reset.css">
 
   <link rel="stylesheet" href="assets/css/style-guide.css">
@@ -15,15 +17,9 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <!--Padrao de escrita: este-aqui -->
+
   <header class="cabecalho">
     <nav class='container-menu'>
       <a href='#' class='titulo-menu'>sunnyside</a>
@@ -37,51 +33,115 @@
     <h1 class='titulo-cabecalho'>We are creatives</h1>
   </header>
 
+  <main>
+    <section class="secao-apresentacao">
+      <div class="apresentacao-cartao">
+        <div class="corpo-cartao">
+          <h2 class="titulo-cartao">Transform your brand</h2>
+          <p class="paragrafo-cartao">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="#" class="link-aprenda-mais-cartao">Learn more</a>
+        </div>
+        <img src="assets/images/desktop/image-transform.jpg" class="imagem-cartao" alt="">
+      </div>
 
+      <div class="apresentacao-cartao">
+        <img src="assets/images/desktop/image-stand-out.jpg" class="imagem-cartao" alt="">
+        <div class="corpo-cartao">
+          <h2 class="titulo-cartao">  Stand out to the right audience</h2>
+          <p class="paragrafo-cartao">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>
+          <a href="#" class="link-aprenda-mais-cartao">Learn more</a>
+        </div>
+      </div>
+
+      <section class="secao-cartoes-servicos-oferecidos">
+        <div class="cartao design-grafico">
+          <div class="container-textos">
+            <h2 class="titulo-cartao titulo-servicos-oferecidos">Graphic Design</h2>
+            <p class="paragrafo-cartao-justificado">
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            </p>
+          </div>
+        </div>
+  
+        <div class="cartao fotografia">
+          <div class="container-textos">
+            <h2 class="titulo-cartao titulo-servicos-oferecidos">Photography</h2>
+            <p class="paragrafo-cartao-justificado"> 
+               Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="secao-depoimentos">
+      <h2 class="titulo-depoimentos">Client testimonials</h2>
+
+      <section class="colecao-cartoes">
+        <div class="cartao-depoimentos">
+          <img  src="assets/images//image-emily.jpg" class="foto-cliente" alt="">
+          <p class="comentario-do-cliente">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <span class="nome-cliente-depoimento">Emily R.</span>
+          <span class="cargo-cliente-depoimento">Marketing Director</span>
+        </div>
+        <div class="cartao-depoimentos">
+          <img  src="assets//images/image-thomas.jpg"class="foto-cliente"  alt="">
+          <p class="comentario-do-cliente">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <span class="nome-cliente-depoimento">Thomas S.</span>
+          <span class="cargo-cliente-depoimento">Chief Operating Officer</span>
+        </div>
+        <div class="cartao-depoimentos">
+          <img  src="assets/images/image-jennie.jpg" class="foto-cliente" alt="">
+          <p class="comentario-do-cliente">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <span class="nome-cliente-depoimento">Jennie F.</span>
+          <span class="cargo-cliente-depoimento"> Business Owner</span>
+        </div>
+      </section>
+    </section>
+   
+    <section class="secao-galeria">
+      <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" class="imagens-galeria" alt="">
+      <img src="./assets/images/desktop/image-gallery-orange.jpg" class="imagens-galeria"  alt="">
+      <img src="./assets/images/desktop/image-gallery-cone.jpg" class="imagens-galeria"  alt="">
+      <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" class="imagens-galeria" alt="">
+    </section>
+  </main>
+  
+  <footer class="rodape">
+    <h2 class="titulo-rodape">sunnyside</h2>
+    <nav class="menu-de-navegacao-rodape">
+      <ul class="lista-menu-rodape ">
+        <li><a href="#" class="links-menu-rodape">About</a></li>
+        <li><a href="#" class="links-menu-rodape">Services</a></li>
+        <li><a href="#" class="links-menu-rodape">Projects</a></li>
+      </ul>
+
+      <ul class="lista-menu-rodape-rede-sociais" >
+        <li><a href="#" ><i class=" icones-redes-sociais fa-brands fa-facebook-square"></i></a></li>
+        <li><a href="#" ><i class=" icones-redes-sociais fa-brands fa-instagram"></i></a></li>
+        <li><a href="#" ><i class=" icones-redes-sociais fa-brands fa-twitter"></i></a></li>
+        <li><a href="#" ><i class=" icones-redes-sociais fa-brands fa-pinterest"></i></a></li>
+      </ul>
+    </nav>
+  </footer>
 
   <!-- 
+
+
   
   
-  
-
-
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
