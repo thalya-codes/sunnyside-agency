@@ -1,0 +1,108 @@
+@media (max-width: 375px) {
+    /*Seção de apresentação*/
+    .flx-direction-reponsivo-transform {
+        flex-direction: column-reverse;
+        padding-bottom: 5rem;
+    }
+    .flx-direction-reponsivo-stand-out {
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+    .corpo-cartao  {
+        padding: 2rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .titulo-cartao {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .titulo-stand-out{
+        width: 80%;
+        margin-left:27px;
+        margin-right:27px;
+    }
+    .imagem-cartao {
+        width: 100vw;
+    }
+    .paragrafo-cartao {
+        font-size: 1.7rem;
+        line-height: 30px;
+    }
+    .link-aprenda-mais-cartao {
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        border-bottom:  5px solid var(--yellow);
+        border-radius: 8px;
+    }
+
+
+    /* Serviços oferecidos*/
+    .secao-cartoes-servicos-oferecidos {
+        display: flex;
+        flex-direction: column;
+    }
+   .design-grafico {
+        width: 100vw;
+        background-image: url('../../images/mobile/image-graphic-design.jpg');
+        background-size: contain;
+    }
+    .fotografia {
+        background-image: url('../../images/mobile/image-photography.jpg');
+        background-size: contain;
+        width: 100vw;
+    }
+    .container-textos {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .container-textos:not(.txt-fotografia) {
+        padding-bottom: 1.9rem;
+    }
+
+    /* Seção depoimentos */
+    .secao-depoimentos {
+        margin-top: 5rem;
+    }
+    .titulo-depoimentos {
+        font-size: 1.6rem;
+
+    }
+    .cartao-depoimentos:not(.ultimo-cartao) {
+        margin-bottom: 12rem;
+    }
+    .colecao-cartoes {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 6.5rem;
+    }
+    .foto-cliente {
+        width: 30%;
+        margin-bottom: 2.3rem;
+    }
+
+
+
+    /* Seção galeria */
+    .secao-galeria  {
+        margin-top: 7rem;
+        flex-wrap: wrap;
+    }
+    .imagens-galeria {
+        width: 50%;
+
+    }
+
+
+    /* Rodapé */
+    .rodape {
+        height: 75vh;   
+    }
+    .lista-menu-rodape {
+        width: 100vw;
+    }
+
+    .lista-menu-rodape-rede-sociais  {
+        width: 44vw;
+    }
+}
