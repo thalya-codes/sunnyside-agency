@@ -21,9 +21,11 @@
  
  <br><br>
  <br><br>
-  ### Sobre o projeto: 
   
-  * É responsivo e possui suporte à telas de até no máximo 375px.
+ ### * É responsivo e possui suporte à telas de até no máximo 375px.
   [ foto /gif ]
+   
+ <br><br>
+ <br><br>
   
-  * Preview: https://sunnysideagencyfrontendmentor.vercel.app/
+  ### * Preview: https://sunnysideagencyfrontendmentor.vercel.app/
