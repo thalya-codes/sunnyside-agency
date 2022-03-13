@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
 
+ <link rel="stylesheet" href="./assets/css/responsividade/cabecalho.css">
   <link rel="stylesheet" href="/assets/css/responsividade/conteudo-principal.css">
   
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800;900&family=Fraunces:wght@100;300;400;500;600;800&display=swap" rel="stylesheet">
@@ -27,16 +28,21 @@
 <body>
 
   <header class="cabecalho" data-aos="fade-down" data-aos-easing="linear"data-aos-duration="1500">
-    <nav class='container-menu'>
+    <nav class='container-menu' data-container-menu>
       <a href='#' class='titulo-menu'>sunnyside</a>
-      <ul class='menu-lista'>
-        <li><a class="menu-lista-link">About</a></li>
-        <li><a class="menu-lista-link">Services</a></li>
-        <li><a class="menu-lista-link">Projects</a></li>
-        <li><a class="menu-lista-link btn-contato">Contact</a></li>
+      <div class="menu-responsivo" data-menu-responsivo>
+        <p></p>
+        <p></p>
+        <p class="last"></p>
+      </div>
+      <ul class='menu-lista' data-menu-lista>
+        <li class="menu-itens"><a class="menu-lista-link">About</a></li>
+        <li class="menu-itens"><a class="menu-lista-link">Services</a></li>
+        <li class="menu-itens"><a class="menu-lista-link">Projects</a></li>
+        <li class="menu-itens"><a class="menu-lista-link btn-contato">Contact</a></li>
       </ul>
     </nav>
-    <h1 class='titulo-cabecalho'>We are creatives</h1>
+    <h1 class='titulo-cabecalho' data-titulo-cabecalho>We are creatives</h1>
   </header>
 
   <main>
@@ -146,6 +152,7 @@
     </nav>
   </footer>
 
+  <script src="./assets/js/menu-responsivo.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();

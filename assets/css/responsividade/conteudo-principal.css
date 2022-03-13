@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 900px) {
     /*Seção de apresentação*/
     .flx-direction-reponsivo-transform {
         flex-direction: column-reverse;
@@ -44,15 +44,16 @@
     }
    .design-grafico {
         width: 100vw;
-        background-image: url('../../images/mobile/image-graphic-design.jpg');
-        background-size: contain;
+        height: 80vh;
+        background-position: center;
     }
     .fotografia {
-        background-image: url('../../images/mobile/image-photography.jpg');
-        background-size: contain;
         width: 100vw;
+        height: 80vh;
+        background-position: center;
     }
     .container-textos {
+        margin-top: 30rem;
         padding-left: 5%;
         padding-right: 5%;
     }
