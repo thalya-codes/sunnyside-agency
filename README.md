@@ -3,12 +3,14 @@
 
  <br>
  
- ### Um pouco sobre o que aprendi com esse projeto
+ O Sunny Agency é um desafio proposto pela plataforma Frontend Mentor, com ele eu pude praticar bastante a questão de versionamento de código, onde eu criei algumas branchs para trabalhar em seções específicas do código  e  com isso  fortalecer conceitos básicos do git que são de grande importância.E também a utilização de bibliotecas, onde eu pude adequar a library escolhida de acordo com o meu objetivo.
 
-* Com esse projeto eu pude praticar bastante a questão de versionamento de código, onde eu criei algumas branchs para trabalhar em seções específicas do código e fortaceler os conceitos básicos do git.E também a utilização de bibliotecas, onde eu pude adequar a library escolhida de acordo com o meu objetivo.
+* Pré-visualização 
+* Esse projeto é responsivo e possui suporte à telas de até no máximo 375px
+* 
  <br><br>
  <br><br>
-!['Preview do projeto em formato de gif'](https://im.ezgif.com/tmp/ezgif-1-164c12fe83.gif)
+!['Preview do projeto em formato de gif'](blob:https://www.facebook.com/8bd584ec-8189-448e-99f2-3dd296a037c4)
  <br><br>
  <br><br>
 ## Tecnologias e recursos utilizados
