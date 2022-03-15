@@ -23,7 +23,7 @@
  <br><br>
   
  ### * É responsivo e possui suporte à telas de até no máximo 375px.
-  [ foto /gif ]
+!['Preview do projeto verão mobile'](https://scontent.fgig20-1.fna.fbcdn.net/v/t1.15752-9/275697944_306754454891699_4278938058671668845_n.png?stp=dst-png_s1080x2048&_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=hEIzJTx7sk8AX_lsyQ4&tn=mACvZqgDiVS8a-ix&_nc_ht=scontent.fgig20-1.fna&oh=03_AVKAsjHsuMzQ1CZelTknwfu47puaZCiK96gp-7r2f1J2eg&oe=62569FBB)
    
  <br><br>
  <br><br>
