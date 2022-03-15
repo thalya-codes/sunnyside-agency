@@ -8,6 +8,7 @@
     background-position: 50% 18%;
 
     color: var(--white);
+
  
 }
 .container-menu {
@@ -76,14 +77,14 @@ main {
 }
 /*Seção apresentação*/
 .secao-apresentacao{
-    width: 100vw;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
 
 }
 .apresentacao-cartao {
-    max-width: 100vw;
+    max-width: 100%;
     display: flex;
 }
 .corpo-cartao {
@@ -91,6 +92,7 @@ main {
 }
 .imagem-cartao {
     width: 50%;
+    height: 50%;
 }
 .titulo-cartao {
     font-size: 4rem;
@@ -156,7 +158,7 @@ main {
 
 /* Testemunhos */
 .secao-depoimentos {
-    width: 100vw;
+    width: 100%;
     margin-top: 20rem;
 }
 .titulo-depoimentos {

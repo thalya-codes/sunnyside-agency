@@ -6,3 +6,7 @@
     box-sizing: border-box;
     font-size: 10px;
 }
+body {
+    overflow-x: hidden;
+}
+

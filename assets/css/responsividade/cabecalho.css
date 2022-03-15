@@ -5,6 +5,9 @@
     }
     .titulo-cabecalho {
         width: 95vw;
+        font-size: 4.3rem;
+        line-height: 7rem;
+        margin-top: 4.5rem;
     }
 
 
@@ -17,26 +20,30 @@
     }
     .menu-lista {
         display: none;
-        margin-left: 21%;
-        margin-top: 12%;
+        margin-top: 17%;
         background-color: var(--white);
-        padding: 5%;
+        padding: 10% 0%;
 
-        height: 40vh;
+        width: 100vw;
+        height: 55vh;
         box-sizing: border-box;
 
     }
     .menu-lista .btn-contato {
         background-color: var(--yellow);
+        font-size: 1.7rem;
+        padding:  2rem 3rem;
+        border-radius: 300px;
     }
+
     .menu-lista-link:not(.btn-contato) {
         font-weight: 600;
+        font-size: 2.3rem;
         color: var(--dark-grayish-blue);
     }
     .menu-itens {
-        padding-bottom: 3.8rem;
+        padding-bottom: 5rem;
         text-align: center;
-
     }
 
 
@@ -64,10 +71,10 @@
     .triagulo-decorativo {
         background-color: var(--white);
         position: absolute;
-        top: 11em;
+        top: 12em;
         right: 0%;
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 90px;
         clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     }
 
