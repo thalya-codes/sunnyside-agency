@@ -5,6 +5,9 @@
     text-decoration: none;
     box-sizing: border-box;
     font-size: 10px;
+
+    scroll-behavior: smooth;
+
 }
 body {
     overflow-x: hidden;

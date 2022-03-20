@@ -5,29 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <link rel="stylesheet" href="/assets/css/style.css">
-
- <link rel="stylesheet" href="./assets/css/responsividade/cabecalho.css">
-  <link rel="stylesheet" href="/assets/css/responsividade/conteudo-principal.css">
-  
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800;900&family=Fraunces:wght@100;300;400;500;600;800&display=swap" rel="stylesheet">
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  
   <link rel="stylesheet" href="assets/css/reset.css">
-
+  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="assets/css/style-guide.css">
-
-
+  <link rel="stylesheet" href="./assets/css/responsividade/cabecalho.css">
+  <link rel="stylesheet" href="/assets/css/responsividade/conteudo-principal.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
-<body>
+<body id="top">
 
-  <header class="cabecalho" data-aos="fade-down" data-aos-easing="linear"data-aos-duration="1500">
+  <header class="cabecalho"  data-aos="fade-down" data-aos-easing="linear"data-aos-duration="1500">
     <nav class='container-menu' data-container-menu>
       <a href='#' class='titulo-menu'>sunnyside</a>
       <div class="menu-responsivo" data-menu-responsivo>
@@ -149,10 +140,15 @@
     </nav>
   </footer>
 
+  <div class="btn-scroll-top" data-scroll-top>
+    <a href="#top" ><img src="./assets/images/arrow-top.png" class="scroll-top-img"></a>
+  </div>
+  
   <script src="./assets/js/menu-responsivo.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <script src="./assets/js/scroll-top.js"></script>
 </body>
 </html>

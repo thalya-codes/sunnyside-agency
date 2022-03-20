@@ -300,3 +300,31 @@ main {
     background-color: #FED602;
     border-radius: 20px;
 }
+.btn-scroll-top {
+    border: 2px solid #000;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 6.5rem;
+
+
+    position: fixed;
+    right: 2%;
+    top: 87%;
+
+    background-color: gba(255, 255, 255, 0.746);
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.scroll-top-img {
+    width: 90%;
+    margin-top: 35%;
+    margin-left: 5%;
+}
+
+
+.btn-scroll-visible {
+    visibility: visible;
+    opacity: 1;
+}
